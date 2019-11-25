@@ -162,7 +162,7 @@ for input_ordering in ['sorted', 'reverse', 'random']:
 print(results)
 results.to_csv('results.csv')
 
-## Plotting results
+# Plotting results
 for input_ord in ['sorted', 'reverse', 'random']:
     plt.figure()
     plt.title(input_ord)
